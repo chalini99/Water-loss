@@ -1,5 +1,6 @@
 streamlit
 pandas
+plotly
+pydeck
 numpy
 scikit-learn
-matplotlib
