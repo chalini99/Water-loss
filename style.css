@@ -1,0 +1,135 @@
+body {
+    background-color: #0b1220;
+    color: #e5e7eb;
+}
+
+.block-container {
+    padding: 1.5rem 2.5rem;
+}
+
+.dashboard-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 20px;        /* 👈 important */
+    margin-bottom: 8px;
+    line-height: 1.2;        /* 👈 prevents clipping */
+}
+.header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: visible;
+}
+
+.dashboard-subtitle {
+    font-size: 16px;
+    color: #94a3b8;
+    margin-bottom: 24px;
+}
+
+.card {
+    background: linear-gradient(180deg, #111827, #0b1220);
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.05),
+                0 10px 30px rgba(0,0,0,0.6);
+}
+
+.card-title {
+    font-size: 14px;
+    color: #9ca3af;
+}
+
+.card-value {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.section-title {
+    margin-top: 40px;
+    margin-bottom: 12px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #e5e7eb;
+}
+
+.alert-critical {
+    background: rgba(239,68,68,0.15);
+    border-left: 4px solid #ef4444;
+    padding: 14px;
+    border-radius: 10px;
+}
+
+.alert-warning {
+    background: rgba(234,179,8,0.15);
+    border-left: 4px solid #eab308;
+    padding: 14px;
+    border-radius: 10px;
+}
+.section-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.section-subtitle {
+  color: #94a3b8;
+  margin-bottom: 12px;
+}
+
+.insights-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.pill-critical {
+  background: #7f1d1d;
+  color: #fecaca;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.alert-critical {
+  background: linear-gradient(135deg, #3f1d2b, #2a0f1b);
+  border-left: 4px solid #ef4444;
+  padding: 14px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.alert-warning {
+  background: #1e293b;
+  border-left: 4px solid #eab308;
+  padding: 14px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.alert-info {
+  background: #0f2a44;
+  border-left: 4px solid #38bdf8;
+  padding: 14px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.alert-label {
+  font-size: 12px;
+  color: #fca5a5;
+  margin-bottom: 4px;
+}
+
+.impact {
+  color: #fb7185;
+  font-weight: 600;
+}
+
+.alert-link {
+  color: #22d3ee;
+  cursor: pointer;
+}
